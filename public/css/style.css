@@ -1,0 +1,500 @@
+html, body, div, a, p, button, input, h1, h2, h3, h4, img {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: 'Open Sans';
+}
+a {
+	color: black;
+}
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+.content_container {
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	width: 100%;
+	height: 53px;
+	justify-content: space-between;
+	margin-top: 43px;
+	margin-bottom: 39px;
+}
+header a {
+	line-height: 53px;
+	font-weight: 400;
+	font-size: 15px;
+}
+.menu_first_block {
+	display: flex;
+	max-width: 750px;
+	width: 100%;
+	justify-content: space-between;
+}
+.navbar {
+	display: flex;
+	max-width: 415px;
+	width: 100%;
+	justify-content: space-between;
+}
+.Login_link {
+text-decoration-line: underline;
+}
+.menu_second_block {
+	display: flex;
+	max-width: 254px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.main_first_block {
+	background-image: url("/images/MainBackground.png");
+	width: 100%;
+	height: 553px;
+	display: flex;
+	justify-content: flex-end;
+}
+.main_title {
+	display: flex;
+	flex-direction: column;
+	max-width: 389px;
+	width: 100%;
+	margin-right: 46px;
+	margin-top: 193px;
+}
+.main_title_text {
+	color: white;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 26px;
+}
+.main_title_btn {
+	max-width: 207px;
+	width: 100%;
+	height: 44px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-weight: 600;
+font-size: 14px;
+cursor: pointer;
+}
+.main_second_block {
+	display: flex;
+	flex-direction: column;
+	margin-top: 134px;
+}
+.main_second_block_title {
+	font-weight: 700;
+	font-size: 36px;
+	margin: 0 auto;
+	max-width: 660px;
+	width: 100%;
+	text-align: center;
+}
+.advantages_block {
+	display: flex;
+	max-width: 1092px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 71px;
+	padding-top: 21px;
+	margin-bottom: 125px;
+}
+.one_advantage {
+	max-width: 239px;
+	width: 100%;
+	text-align: center;
+	min-height: 207px;
+}
+.advantage_title {
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+max-width: 239px;
+}
+.advantage_subtitle {
+font-weight: 400;
+font-size: 13px;
+color: #787878;
+margin-top: 7px;
+text-align: center;
+max-width: 217px;
+}
+.ruble {
+	margin-bottom: 22px;
+	margin-top: 8px;
+}
+.person {
+	margin-bottom: 18px;
+}
+.computer {
+	margin-bottom: 22px;
+	margin-top: 13px;
+}
+.planet {
+	margin-bottom: 25px;
+}
+.main_third_block {
+display: flex;
+margin-bottom: 128px;
+}
+.main_third_block_text {
+	margin-top: 145px;
+	margin-left: 53px;
+}
+.main_third_block_title {
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 18px;
+max-width: 642px;
+}
+.main_third_block_subtitle {
+font-weight: 400;
+font-size: 18px;
+color: #424242;
+margin-bottom: 32px;
+max-width: 552px;
+}
+.main_third_block_btn {
+width: 198px;
+height: 54px;
+background-color: #595959;
+color: #FFFFFF;
+cursor: pointer;
+border: none;
+border-radius: 3px;
+}
+
+.main_fourth_block_title {
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+margin: 0 auto;
+max-width: 660px;
+margin-bottom: 31px;
+}
+.main_fourth_block_subtitle {
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+color: #424242;
+margin: 0 auto;
+max-width: 997px;
+}
+.experts_block {
+ display: flex;
+ max-width: 1012px;
+ width: 100%;
+ justify-content: space-between;
+ margin: 92px auto;
+ margin-bottom: 89px;
+}
+.expert_name {
+margin-top: 23px;
+font-weight: 700;
+font-size: 17px;
+text-align: center;
+}
+.main_fifth_block {
+display: flex;
+justify-content: space-between;
+padding-bottom: 66px;
+margin-bottom: 27px;
+}
+.main_fifth_block_text {
+margin-right: 35px;
+max-width: 559px;
+width: 100%;
+margin-top: 133px;
+}
+.main_fifth_block_title {
+font-weight: 700;
+font-size: 36px;
+max-width: 436px;
+color: #282828;
+}
+.main_fifth_block_subtitle {
+margin-top: 22px;
+font-weight: 400;
+font-size: 17px;
+color: #424242;
+margin-bottom: 23px;
+}
+.main_fifth_block_btn {
+width: 198px;
+height: 54px;
+color: #FFFFFF;
+background: #282828;
+border-radius: 3px;
+border: none;
+font-weight: 600;
+font-size: 15px;
+cursor: pointer;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 39px;
+	margin-top: 24px;
+}
+.footer_links {
+	width: 295px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+line-height: 19px;
+margin-bottom: 8px;
+line-height: 19px;
+}
+.footer_text {
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+margin-bottom: 23px;
+}
+.soc_net {
+	max-width: 93px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_title {
+	font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+.footer_subtitle {
+	font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
+.footer_form {
+	display: flex;
+	justify-content: space-between;
+	max-width: 283px;
+	width: 100%;
+	margin-top: 23px;
+}
+.footer_input {
+width: 155px;
+height: 39px;
+border: 1px solid #DFDFDF;
+box-sizing: border-box;
+padding-left: 15px;
+padding-bottom: 12px;
+padding-top: 11px;
+color: #818181;
+opacity: 0.6;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+}
+.footer_btn {
+width: 116px;
+height: 39px;
+background: #282828;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+}
+.pop_up_container {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+}
+.hide_login_pop_up {
+	display: none;
+}
+.hide_reg_pop_up {
+	display: none;
+}
+.reg_pop_up_text {
+text-align: center;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+max-width: 268px;
+margin: 0 auto;
+margin-bottom: 34px;
+}
+.pop_up {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-bottom: auto;
+	max-width: 396px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+.pop_up_reg {
+	min-height: 722px;
+}
+.pop_up_login {
+	min-height: 584px;
+}
+.pop_up_title {
+font-weight: 700;
+font-size: 23px;
+line-height: 31px;
+margin-top: 52px;
+text-align: center;
+}
+.pop_up_login_title {
+margin-bottom: 33px;
+}
+.pop_up_reg_title {
+	margin-bottom: 8px;
+}
+.pop_up_input {
+background: #F9F9F9;
+border: 1px solid #6C6C6C;
+border-radius: 64px;
+box-sizing: border-box;
+margin: 0 auto;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+margin-bottom: 20px;
+width: 271px;
+height: 48px;
+padding-left: 22px;
+
+}
+.pop_up_input::placeholder {
+	color: black;
+}
+.pop_up_reset_pwd {
+	margin-top: 11px;
+	text-decoration-line: underline;
+	font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+margin-bottom: 32px;
+
+}
+.pop_up_conf_input {
+	margin-bottom: 46px;
+}
+.pop_up_btn {
+	width: 176px;
+	height: 52px;
+	font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+background: #282828;
+border-radius: 3px;
+margin: 0 auto;
+border: none;
+cursor: pointer;
+}
+.pop_up_register {
+	font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #919191;
+margin-bottom: 55px;
+margin-top: 24px;
+}
+.pop_up_register a {
+	color: rgba(0, 0, 0, 1);
+	text-decoration-line: underline;
+}
+.pop_up_logo {
+	margin: 0 auto;
+	width: 72px;
+	height: 21px;
+}
+.pop_up_user_agreement {
+	font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: #000000;
+opacity: 0.6;
+margin: 15px auto;
+max-width: 350px;
+
+}
+.pop_up_exit_btn {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border: none;
+	background-color: transparent;
+	left: 402px;
+	top: -14px;
+	cursor: pointer;
+}
+.border {
+	display: block;
+	width: 100%;
+	height: 6px;	
+background: #282828;
+opacity: 0.1;
+}
+.lessons_block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.lesson {
+	display: flex;
+	flex-direction: column;
+	max-width: 314px;
+}
+.lessons_page_title {
+	font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+margin-top: 62px;
+margin-bottom: 36px;
+}
+.lesson_title {
+	font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+margin-top: 10px;
+}
+.difficulty_level {
+	font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #525252;
+margin-top: 2px;
+}
+.coach_block {
+	display: flex;
+	margin-top: 10px;
+	max-width: 132px;
+	width: 100%;
+	justify-content: space-between;
+}
+.coachpic {
+	width: 12px;
+	height: 14px;
+	line-height: 19px;
+}
+.coach_name {
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+}
